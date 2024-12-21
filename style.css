@@ -1,0 +1,142 @@
+body{
+    background-image: url("./shara\ desert.jpg");
+    background-size: cover;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+a{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+button{
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;  
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.manu{
+    display: flex; 
+     align-items: center;
+    justify-content: space-between;
+}
+@media (min-width:360px) and (max-width:640px){
+    .manu{
+        width: 400px;
+    }
+    .main1{
+        width: 600px;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main2{
+        width: 500px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .main2 div {
+        height: 150px;
+        width: 400px;
+        border-radius: 15px;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    .img-1{
+        position: absolute;
+    }
+    .img-2{
+        position: absolute;
+        top: 175px;
+        right: 430px;
+    }
+    .img-3{
+        position: absolute;
+        top: 140px;
+    }
+    .img-4{
+        position: absolute;
+        top: 320px;
+        right: 430px;
+    }
+
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#id1{
+    height: 35px;
+    width: 35px;
+}
+.main2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.p1{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.img-1,.img-2,.img-3,.img-4{
+    height: 250px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+    transition: 1s ease;
+}
+.img-1:hover{
+    margin-top: 1px;
+}
+.img-2:hover{
+    margin-top: 1px;
+}
+.img-3:hover{
+    margin-top: 1px;
+}
+.img-4:hover{   
+    margin-top: 1px;
+}
+.img-1{
+    background-image: url("./pic-1.png");
+}
+.img-2{
+    background-image: url("./pic-2.png");
+}
+.img-3{
+    background-image: url("./pic-3.png");
+}
+.img-4{
+    background-image: url("./pic-4.png");
+}
+.p2{
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+}
